@@ -1,0 +1,23 @@
+.footer{
+    height: 45vh;
+    background-color: #ededed;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 60px
+}
+
+@media only screen and (max-width: 468px){
+ .footer{
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+ }   
+}
+
+
+li{
+    cursor: pointer;
+}

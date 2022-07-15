@@ -1,0 +1,87 @@
+.app {
+    height: 100%;
+    background-image: url("./assets/images/backgroundOne.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+
+}
+
+.royal-decree-btn {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    padding-bottom: 150px;
+}
+
+.hero {
+    padding: 240px;
+}
+
+.announcements {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #9a1e28;
+
+}
+
+.royal-decree {
+    text-transform: uppercase;
+    padding: 0 50px;
+    color: #ededed;
+}
+
+.royal-text {
+    padding: 30px 150px;
+    text-align: center;
+    color: #d7d7d6;
+}
+
+.cuffsncollars {
+    background-image: url("https://images.unsplash.com/photo-1603252110481-7ba873bf42ab?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+}
+
+.cnc-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    
+    background-color: rgba(255, 255, 255, 0.3);
+    
+}
+
+ul {
+    list-style: none;
+}
+@media only screen and (max-width: 468px) {
+
+    .hero {
+        padding: 0 30px;
+    }
+
+    .royal-text {
+        padding: 30px 50px;
+        text-align: center;
+        color: #d7d7d6;
+    }
+
+    .app {
+        height: 53%;
+        background-image: url("./assets/images/backgroundOne.png");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: contain;
+
+    }
+
+}
