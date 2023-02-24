@@ -29,14 +29,17 @@ function App() {
         </div>
         <div>
           <p className="royal-text">
-            Summer of 2022, we will re-introduce made-to-order suits, jackets,
-            and trousers in tandem with our shirt subscription service, Cuff &
-            Collar.
+            In the upcoming summer of 2022, we are excited to announce the
+            re-introduction of our highly sought after made-to-order suits,
+            jackets, and trousers, which will complement our existing shirt
+            subscription service, Cuff & Collar.
             <br />
             <br />
-            At this time, access to our entry level membership is only by way of
-            invitation from an active founding member or directly from a member
-            of our team. For more information, please download our pitch
+            It is important to note that our entry level membership is currently
+            accessible only through an invitation from an active founding member
+            or directly from a member of our esteemed team. Should you require
+            more information on this exclusive opportunity, kindly download our
+            pitch for further details.
             <a
               href="general.pdf"
               style={{
